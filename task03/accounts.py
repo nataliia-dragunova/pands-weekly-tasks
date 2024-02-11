@@ -4,7 +4,9 @@
 # the first 6 digits replaced with Xs
 # author : Nataliia Dragunova
 
-# first attempt - it works but it's clunky :)
+# first attempt - it works but it's clunky :) 
+# it's impossible to use this method to endless account number
+
 num = int(input("Please enter an 10 digit account number:"))
 acc = str(num)
 print("XXXXXX" + " "+ acc[6],acc[7],acc[8],acc[9]);

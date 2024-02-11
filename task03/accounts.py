@@ -4,8 +4,7 @@
 # the first 6 digits replaced with Xs
 # author : Nataliia Dragunova
 
-number = int(input("Please enter an 10 digit account number:"));
-'''
-numberX = (number6 + number4)
-print ();
-'''
+# first attempt - it works but it's clunky :)
+num = int(input("Please enter an 10 digit account number:"))
+acc = str(num)
+print("XXXXXX" + " "+ acc[6],acc[7],acc[8],acc[9]);

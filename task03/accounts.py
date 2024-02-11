@@ -13,7 +13,14 @@ print("XXXXXX" + " "+ acc[6],acc[7],acc[8],acc[9]);
 '''
 # second attempt after watching the end of the 2d lecture
 # it's impossible to use this method to endless account number
-
+'''
 num = int(input("Please enter an 10 digit account number:"))
 acc = str(num)
 print("XXXXXX" + acc[-4:10]); 
+'''
+# third attempt after reading about slicing in W3schools
+# it's impossible to use this method to endless account number
+
+num = int(input("Please enter an 10 digit account number:"))
+acc = str(num)
+print("XXXXXX" + acc[6:]); 

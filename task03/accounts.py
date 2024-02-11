@@ -26,6 +26,14 @@ print("XXXXXX" + acc[-4:]);
 '''
 # it's possible to use this method to endless account number
 # but it can not specify how many Xs before the last 4 numbers
-num = int(input("Please enter an 10 digit account number:"))
+'''
+num = int(input("Please enter a digit account number:"))
 acc = str(num)
 print("∞" + acc[-4:]); 
+'''
+# EXTRA TASK - Endless account number with the last 4 visible numbers
+num = int(input("Please enter a digit account number:"))
+acc = str(num)
+lnum = len(acc)
+qnum = lnum - 4
+print(str(qnum * "X") + acc[-4:]);

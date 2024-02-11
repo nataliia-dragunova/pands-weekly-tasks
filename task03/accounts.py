@@ -16,11 +16,16 @@ print("XXXXXX" + " "+ acc[6],acc[7],acc[8],acc[9]);
 '''
 num = int(input("Please enter an 10 digit account number:"))
 acc = str(num)
-print("XXXXXX" + acc[-4:10]); 
+print("XXXXXX" + acc[6:]); 
 '''
 # third attempt after reading about slicing in W3schools
-# it's impossible to use this method to endless account number
-
+'''
 num = int(input("Please enter an 10 digit account number:"))
 acc = str(num)
-print("XXXXXX" + acc[6:]); 
+print("XXXXXX" + acc[-4:]);
+'''
+# it's possible to use this method to endless account number
+# but it can not specify how many Xs before the last 4 numbers
+num = int(input("Please enter an 10 digit account number:"))
+acc = str(num)
+print("∞" + acc[-4:]); 

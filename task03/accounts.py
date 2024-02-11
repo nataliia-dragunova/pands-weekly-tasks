@@ -34,6 +34,5 @@ print("∞" + acc[-4:]);
 # EXTRA TASK - Endless account number with the last 4 visible numbers
 num = int(input("Please enter a digit account number:"))
 acc = str(num)
-lnum = len(acc)
-qnum = lnum - 4
-print(str(qnum * "X") + acc[-4:]);
+lnum = len(acc) - 4
+print(str(lnum * "X") + acc[-4:]);

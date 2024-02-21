@@ -8,10 +8,10 @@
 
 # mostly I spent time for to separate numbers :)
 num = int(input("Please enter a positive integer:"))
-while num != 1:
-  print(int(num), end =" ")
-  if num % 2 == 0:
-    num = num /2
+while num != 1: # condition for the end of loop
+  print(int(num), end =" ") # printing every new number in line
+  if num % 2 == 0: # check the number : even or odd
+    num = num /2 # collatz condition for even int
   else:
-    num = num * 3 + 1
-print(int(num))
+    num = num * 3 + 1 # collatz condition for odd int
+print(int(num)) # end of loop

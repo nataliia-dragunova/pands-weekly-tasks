@@ -13,6 +13,8 @@ txt = "The sum of these is €{}"
 print (txt.format(sum));
 
 '''
+# the last version
+
 amount1 = int(input("please enter first amount in cents:"))
 amount2 = int(input("please enter second amount in cents:"))
 sum = (amount1 + amount2)/100

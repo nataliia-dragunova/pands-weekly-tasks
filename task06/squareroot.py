@@ -2,6 +2,8 @@
 # to create sqrt function by the newton method at estimating square roots
 # author : Nataliia Dragunova
 
+# spent much time on getting the right numbers after decimal
+
 import math
 def newton_sq(n):
     sq = math.ceil(n)

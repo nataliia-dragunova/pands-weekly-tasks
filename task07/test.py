@@ -1,8 +1,14 @@
-# es.py
-# to create a program reads in a text file and outputs the number of e's it contains
-# author : Nataliia Dragunova
 
 import os
+import sys
+
+def main():
+    # Check if filename is provided as an argument
+    if len(sys.argv) != 2:
+        print("Usage: python program.py <filename>")
+        return
+
+    filename = sys.argv[1]
 
 def file_name():
     filename = input("Please enter a file name:")
@@ -33,3 +39,5 @@ def check(filename):
 
 
 file_name()
+if __name__ == "__main__":
+    main()
